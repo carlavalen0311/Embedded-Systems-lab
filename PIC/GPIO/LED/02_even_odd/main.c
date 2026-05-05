@@ -1,5 +1,4 @@
 #include <pic.h>
-
 #define led PORTB
 
 void delay(){
@@ -8,7 +7,6 @@ void delay(){
         for(j=0;j<10;j++);
     }
 }
-
 void main(){
     unsigned int i;
     TRISB = 0x00;
